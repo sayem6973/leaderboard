@@ -1,0 +1,98 @@
+
+/* common css */
+body{
+    background-color: plum;
+}
+
+
+/* top player css */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    background-color:#FFFFFF;
+    width: 870px;
+    height: 679px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+}
+.topplayertitle{
+    
+    color:#562EFF;
+    margin-top: 33px;
+    padding-left: 30px;
+    height: 36px;
+    font-size: 24px;
+
+    
+}
+
+
+.topplayer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px; 
+    padding-left: 30px; 
+    margin-top: 40px;
+    
+
+}
+.player{
+    display: flex ;
+    align-items: center;
+    
+
+}
+.player img{
+    width:56;
+    height:56px;
+    
+}
+.player h3{
+    padding-left: 16px;
+    font-size: 18px;
+    width: 124;
+    height: 27px;
+    
+}
+hr{
+    width: 807px;
+    color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    margin-top:30px;
+    margin-bottom: 30px;
+
+}
+
+.topblog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+    margin-left: 30px;
+
+}
+.blog{
+    display: flex;
+    
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.bloginfo h3 {
+    width: 164px;
+    height: 68px;
+    font-size: 20;
+    font-weight: 400;
+    
+}
+.blog-info p{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
